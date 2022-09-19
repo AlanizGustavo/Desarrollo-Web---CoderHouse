@@ -128,14 +128,12 @@ a{
 
 .titulo{
     text-align: center;
-    font-size: 15rem;
     font-weight: 100;
     font-family: Honey Butter;
 }
 
 .slogan{
     font-family: 'Qwitcher Grypen', cursive;
-    font-size: 8rem;
 }
 
 .botonBanner:hover{
@@ -156,7 +154,6 @@ a{
 .subtitulo{
     text-align: center;
     font-family: 'Qwitcher Grypen', cursive;
-    font-size: 12rem;
     font-weight: 100;
     margin-bottom: 6rem;
     margin-top: 8rem;
@@ -513,14 +510,26 @@ article{
         padding: 0rem 3rem;
         font-size: 3.5rem;
     }
+    .subtitulo{
+        font-size: 12rem;
+    }
 }
 
 @media (min-width: 1288px) {
+    .titulo{
+        font-size: 15rem;
+    }
     .mapa{
         max-width: 60%; 
     }
     .contenedorGrid{
         padding: 0rem 15%;
+    }
+    .slogan{
+        font-size: 8rem;
+    }
+    .subtitulo{
+        font-size: 12rem;
     }
 }
 
