@@ -1,26 +1,26 @@
 @font-face {
     font-family: Amatic SC;
-    src: url(./assets/fonts/AmaticSC-Bold.ttf);
+    src: url(../assets/fonts/AmaticSC-Bold.ttf);
 }
 
 @font-face {
     font-family: Qwitcher Grypen;
-    src: url(./assets/fonts/QwitcherGrypen-Regular.ttf);
+    src: url(../assets/fonts/QwitcherGrypen-Regular.ttf);
 }
 
 @font-face {
     font-family: Honey Butter;
-    src: url(./assets/fonts/Honey\ Butter.ttf);
+    src: url(../assets/fonts/Honey\ Butter.ttf);
 }
 
 @font-face {
     font-family: Montserrat Regular;
-    src: url(./assets/fonts/Montserrat-Regular.ttf);
+    src: url(../assets/fonts/Montserrat-Regular.ttf);
 }
 
 @font-face {
     font-family: Montserrat Bold;
-    src: url(./assets/fonts/Montserrat-Bold.ttf);
+    src: url(../assets/fonts/Montserrat-Bold.ttf);
 }
 
 *{
