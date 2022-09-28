@@ -489,14 +489,12 @@ article{
         margin-bottom: 0px;
     }
     .articleRecetas img{
-        /* max-height: 40rem; */
         width: 100%;
         height: auto;
         margin-right: 2rem;
         border-radius: 10px;
     }
     .articleRecetasInvertida img{
-        /* max-height: 40rem; */
         width: 100%;
         height: auto;
         margin-left: 2rem;
@@ -550,14 +548,12 @@ article{
         margin-right: 2rem;
     }
     .articleRecetas img{
-        /* max-height: 40rem; */
         width: 100%;
         height: auto;
         margin-right: 2rem;
         border-radius: 10px;
     }
     .articleRecetasInvertida img{
-        /* max-height: 40rem; */
         width: 100%;
         height: auto;
         margin-left: 2rem;
