@@ -35,6 +35,11 @@ html{
     font-size: 62.5%;
 }
 
+body{
+    background-color: #F7F0CA;
+    line-height: normal;
+}
+
 h3{
     font-size: 2.5rem;
     font-family: 'Montserrat Bold';
@@ -53,7 +58,6 @@ header{
     padding-left: 6.5rem;
     top: 0;
     width: 100%;
-    max-height: 10rem;
     z-index: 1;
 }
 
@@ -69,10 +73,21 @@ nav{
     justify-content: space-between;
 }
 
+.navBar{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-toggler{
+    color: #F7F0CA;
+}
+
 nav ul{
     align-items: center;
     display: flex;
-    margin: 2rem 6rem;
+    margin: 0rem 6rem;
+    /* margin: 2rem 6rem; */
 }
 
 nav ul li, .botonBanner{
@@ -80,9 +95,12 @@ nav ul li, .botonBanner{
     padding: 0rem 5rem;
     font-size: 4rem;
     list-style: none;
-    margin-right: 2rem;
     background-color: #F7F0CA;
     border-radius: 50px;
+}
+
+nav ul li{
+    margin-right: 2rem;
 }
 
 nav ul li:hover{
@@ -97,8 +115,18 @@ nav ul li:hover a{
     color: #F7F0CA;
 }
 
+.hamburger{
+    margin-right: 6rem;
+}
+
+.hamburgerIcon{
+    fill: #F7F0CA;
+    height: 3rem;
+}
+
 a{
     text-decoration: none;
+    color: #000000;
 }
 
 /* Fin Header */
@@ -120,7 +148,7 @@ a{
 
 .textoSobreImagen{
     left: 50%;
-    line-height: 10rem;
+    /* line-height: 10rem; */
     position: absolute;
     top: 35%;
     transform: translate(-50%,-50%);
@@ -383,18 +411,6 @@ article{
     width: 100%;
 }
 
-.articleRecetas img{
-    max-height: 40rem;
-    margin-right: 2rem;
-    border-radius: 10px;
-}
-
-.articleRecetasInvertida img{
-    max-height: 40rem;
-    margin-left: 2rem;
-    border-radius: 10px;
-}
-
 /* Animaciones */
 
 @keyframes sacudir {
@@ -426,10 +442,10 @@ article{
 
 @media (max-width: 420px) {
     .titulo{
-        font-size: 6rem;
+        font-size: 7rem;
     }
     .slogan{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .subtitulo{
         font-size: 5rem;
@@ -444,8 +460,6 @@ article{
     footer nav ul li{
         padding: 0rem 2rem;
     }
-<<<<<<< Updated upstream
-=======
     header{
         padding-left: 2rem;
     }
@@ -492,7 +506,6 @@ article{
     .articleRecetasInvertida{
         flex-wrap: wrap;
     }
->>>>>>> Stashed changes
 }
 
 @media (min-width:421px) and (max-width: 626px) {
@@ -515,8 +528,6 @@ article{
     footer nav ul li{
         padding: 0rem 2rem;
     }
-<<<<<<< Updated upstream
-=======
     header{
         padding-left: 2rem;
     }
@@ -554,11 +565,10 @@ article{
     .articleRecetasInvertida{
         flex-wrap: wrap;
     }
->>>>>>> Stashed changes
 }
-@media (min-width:627px) and (max-width: 826px) {
+@media (min-width:627px) and (max-width: 827px) {
     .titulo{
-        font-size: 9rem;
+        font-size: 8rem;
     }
     .slogan{
         font-size: 6rem;
@@ -566,9 +576,42 @@ article{
     .subtitulo{
         font-size: 8rem;
     }
+    header nav ul li{
+        padding: 0rem 1.7rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    header nav ul{
+        margin: 0;
+        align-items: flex-start;
+    }
+    .navBar{
+        margin-top: 1rem;
+        justify-content: flex-start;
+    }
+    .articleRecetas img{
+        /* max-height: 40rem; */
+        width: 100%;
+        height: auto;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        /* max-height: 40rem; */
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetas{
+        flex-wrap: wrap;
+    }
+    .articleRecetasInvertida{
+        flex-wrap: wrap;
+    }
 }
 
-@media (min-width:827px) and (max-width: 1075px) {
+@media (min-width:828px) and (max-width: 1075px) {
     .titulo{
         font-size: 10rem;
     }
@@ -581,7 +624,35 @@ article{
     header nav ul li{
         padding: 0rem 1.7rem;
         font-size: 2.5rem;
-        margin-right: 1rem;
+        margin-bottom: 1rem;
+    }
+    header nav ul{
+        margin: 0;
+        align-items: flex-start;
+    }
+    .navBar{
+        margin-top: 1rem;
+        justify-content: flex-start;
+    }
+    .articleRecetas img{
+        /* max-height: 40rem; */
+        width: 100%;
+        height: auto;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        /* max-height: 40rem; */
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetas{
+        flex-wrap: wrap;
+    }
+    .articleRecetasInvertida{
+        flex-wrap: wrap;
     }
 }
 
@@ -602,6 +673,16 @@ article{
     .subtitulo{
         font-size: 12rem;
     }
+    .articleRecetas img{
+        max-height: 40rem;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        max-height: 40rem;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
 }
 
 @media (min-width: 1288px) {
@@ -619,6 +700,16 @@ article{
     }
     .subtitulo{
         font-size: 12rem;
+    }
+    .articleRecetas img{
+        max-height: 40rem;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        max-height: 40rem;
+        margin-left: 2rem;
+        border-radius: 10px;
     }
 }
 
