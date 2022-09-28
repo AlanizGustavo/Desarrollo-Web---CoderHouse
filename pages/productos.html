@@ -4,24 +4,54 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- favicon -->
         <link rel="shortcut icon" href="../assets/img/logos/dulce_victoria_redondo.png">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
         <link rel="stylesheet" href="../css/style.css">
         <title>Productos</title>
     </head>
     <body>
         <header>
-            <nav>
+            <!-- nav responsive con bootstrap -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <!-- logo marca -->
                 <a href="../index.html"><img class="logo" src="../assets/img/logos/dulce_victoria_amarillo.PNG" alt="Logo de Dulce Victoria"></a>
-                <ul>
-                    <li class="animacion"><a href="#">Productos</a></li>
-                    <li class="animacion"><a href="../pages/faq.html">FAQ</a></li>
-                    <li class="animacion"><a href="../pages/recetas.html">Recetas</a></li>
-                    <li class="animacion"><a href="../pages/hace_tu_pedido.html">Hace tu pedido</a></li>
-                </ul>
+                <!-- hamburguesa -->
+                <button
+                    class="navbar-toggler hamburger"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-list hamburgerIcon" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                </button>
+                <div class="navBar collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="animacion">
+                            <a href="#">Productos</a>
+                        </li>
+                        <li class="animacion">
+                            <a href="../pages/faq.html">FAQ</a>
+                        </li>
+                        <li class="animacion">
+                            <a href="../pages/recetas.html">Recetas</a>
+                        </li> 
+                        <li class="animacion">
+                            <a href="../pages/hace_tu_pedido.html">Hace tu pedido</a>
+                        </li>
+                    </ul>
+                </div>
             </nav>
         </header>
         <main class="contenedorGrid">
             <h1 class="titulo">Nuestras delicias</h1>
+            <!-- Grid responsive de tarjetas de productos -->
             <section class="grid">
                 <div class="card">
                     <img src="../assets/img/drip_cake_celestes.JPG" alt="Dip cake en tonos celestes">

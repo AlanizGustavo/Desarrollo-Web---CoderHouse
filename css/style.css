@@ -444,6 +444,55 @@ article{
     footer nav ul li{
         padding: 0rem 2rem;
     }
+<<<<<<< Updated upstream
+=======
+    header{
+        padding-left: 2rem;
+    }
+    header nav ul li{
+        padding: 0rem 1.7rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    header nav ul{
+        margin: 0;
+        align-items: flex-start;
+    }
+    nav ul li{
+        margin-right: 1rem;
+    }
+    .navBar{
+        margin-top: 1rem;
+        justify-content: flex-start;
+    }
+    .hamburger{
+        margin-right: 2rem;
+    }
+    .texto{
+        font-size: 1.5rem;
+    }
+    .contenedorGrid .titulo{
+        margin-bottom: 0px;
+    }
+    .articleRecetas img{
+        width: 100%;
+        height: auto;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetas{
+        flex-wrap: wrap;
+    }
+    .articleRecetasInvertida{
+        flex-wrap: wrap;
+    }
+>>>>>>> Stashed changes
 }
 
 @media (min-width:421px) and (max-width: 626px) {
@@ -466,6 +515,46 @@ article{
     footer nav ul li{
         padding: 0rem 2rem;
     }
+<<<<<<< Updated upstream
+=======
+    header{
+        padding-left: 2rem;
+    }
+    header nav ul li{
+        padding: 0rem 1.7rem;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    header nav ul{
+        margin: 0;
+        align-items: flex-start;
+    }
+    .navBar{
+        margin-top: 1rem;
+        justify-content: flex-start;
+    }
+    .hamburger{
+        margin-right: 2rem;
+    }
+    .articleRecetas img{
+        width: 100%;
+        height: auto;
+        margin-right: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetasInvertida img{
+        width: 100%;
+        height: auto;
+        margin-left: 2rem;
+        border-radius: 10px;
+    }
+    .articleRecetas{
+        flex-wrap: wrap;
+    }
+    .articleRecetasInvertida{
+        flex-wrap: wrap;
+    }
+>>>>>>> Stashed changes
 }
 @media (min-width:627px) and (max-width: 826px) {
     .titulo{
