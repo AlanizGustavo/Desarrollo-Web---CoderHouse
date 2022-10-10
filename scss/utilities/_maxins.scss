@@ -9,3 +9,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+@mixin font-face($name,$url) {
+    font-family: $name;
+    src: url($url);
+}
