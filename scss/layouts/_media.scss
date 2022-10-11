@@ -66,6 +66,14 @@
             border-radius: 10px;
         }
     }
+    .btn-suspendido{
+        height: 5rem;
+        width: 5rem;
+        svg{
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
 
 @media (min-width:421px) and (max-width: 626px) {
@@ -125,6 +133,14 @@
             border-radius: 10px;
         }
     }
+    .btn-suspendido{
+        height: 5rem;
+        width: 5rem;
+        svg{
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
 @media (min-width:627px) and (max-width: 827px) {
     .titulo{
@@ -165,6 +181,14 @@
             height: auto;
             margin-left: 2rem;
             border-radius: 10px;
+        }
+    }
+    .btn-suspendido{
+        height: 7rem;
+        width: 7rem;
+        svg{
+            width: 40px;
+            height: 40px;
         }
     }
 }
