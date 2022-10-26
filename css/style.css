@@ -22,6 +22,9 @@ h3 {
   font-size: 2.5rem;
   font-family: "Montserrat Bold", sans-serif; }
 
+h4 {
+  font-size: 2rem; }
+
 a {
   text-decoration: none;
   color: #000000; }
@@ -268,24 +271,38 @@ form {
     text-align: center; }
 
 article {
-  margin-bottom: 4rem; }
+  margin-bottom: 4rem;
+  font-size: 2rem; }
 
 .articleRecetas {
-  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 450px;
   border-radius: 15px;
   box-shadow: 0px 0px 20px 5px #000000;
   margin-bottom: 4rem;
   padding: 2rem;
   width: 100%; }
+  .articleRecetas img {
+    float: left; }
 
 .articleRecetasInvertida {
   border-radius: 15px;
+  min-height: 500px;
   box-shadow: inset 0px 0px 20px 5px black;
-  display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row-reverse;
   margin-bottom: 4rem;
   padding: 2rem;
   width: 100%; }
+  .articleRecetasInvertida img {
+    float: right; }
+
+.anclaTexto {
+  color: #f19ccc; }
+  .anclaTexto:hover {
+    color: #f19ccc; }
 
 /* ANIMACOINES */
 @keyframes sacudir {
@@ -329,10 +346,20 @@ article {
   .botonBanner, nav ul li {
     font-size: 3rem;
     padding: 0rem 2rem; }
-  footer nav ul {
-    margin: 2rem 5rem; }
-    footer nav ul li {
-      padding: 0rem 2rem; }
+  .grid {
+    margin: 0% 0% 0% 0%;
+    gap: 0rem 0rem;
+    padding: 0rem; }
+    .grid .card {
+      width: 20rem;
+      height: 30rem; }
+  footer nav {
+    justify-content: center; }
+    footer nav ul {
+      margin: 2rem 5rem; }
+      footer nav ul li {
+        padding: 0rem 0rem;
+        font-size: 2rem; }
   header {
     padding-left: 2rem; }
     header nav ul {
@@ -384,10 +411,13 @@ article {
   .banner > .botonBanner, nav ul .banner > li {
     font-size: 3.5rem;
     padding: 0rem 3rem; }
-  footer nav ul {
-    margin: 2rem 5rem; }
-    footer nav ul li {
-      padding: 0rem 2rem; }
+  footer nav {
+    justify-content: center; }
+    footer nav ul {
+      margin: 2rem 5rem; }
+      footer nav ul li {
+        padding: 0rem 0rem;
+        font-size: 2rem; }
   header {
     padding-left: 2rem; }
     header nav ul {
@@ -430,6 +460,8 @@ article {
     font-size: 6rem; }
   .subtitulo {
     font-size: 8rem; }
+  footer nav {
+    margin-bottom: 1rem; }
   header nav ul {
     margin: 0;
     align-items: flex-start; }
@@ -468,6 +500,8 @@ article {
     font-size: 7rem; }
   .subtitulo {
     font-size: 9rem; }
+  footer nav {
+    margin-bottom: 1rem; }
   header nav ul {
     margin: 0;
     align-items: flex-start; }
@@ -500,6 +534,8 @@ article {
     font-size: 7rem; }
   .mapa {
     max-width: 80%; }
+  footer nav {
+    margin-bottom: 1rem; }
   header nav ul li {
     padding: 0rem 3rem;
     font-size: 3.5rem; }

@@ -14,12 +14,25 @@
         font-size: 3rem;
         padding: 0rem 2rem;
     }
-    footer nav ul{
-        margin: 2rem 5rem;
-        li{
-            padding: 0rem 2rem;
+    .grid{
+        margin: 0% 0% 0% 0%;
+        gap: 0rem 0rem;
+        padding: 0rem;
+        .card{
+            width: 20rem;
+            height: 30rem;
         }
     }
+    footer nav {
+        justify-content: center;
+        ul{
+            margin: 2rem 5rem;
+            li{
+            padding: 0rem 0rem;
+            font-size: 2rem;
+            }
+        }
+    }    
     header{
         padding-left: 2rem;
         nav ul{
@@ -90,12 +103,16 @@
         font-size: 3.5rem;
         padding: 0rem 3rem;
     }
-    footer nav ul{
-        margin: 2rem 5rem;
-        li{
-            padding: 0rem 2rem;
-        }
-    }
+    footer nav {
+        justify-content: center;
+        ul{
+            margin: 2rem 5rem;
+            li{
+                padding: 0rem 0rem;
+                font-size: 2rem;
+            }
+        }    
+    } 
     header{
         padding-left: 2rem;
         nav ul{
@@ -152,6 +169,10 @@
     .subtitulo{
         font-size: 8rem;
     }
+    footer nav {
+        margin-bottom: 1rem;
+    }
+
     header nav ul{
         margin: 0;
         align-items: flex-start;
@@ -203,6 +224,11 @@
     .subtitulo{
         font-size: 9rem;
     }
+
+    footer nav{
+        margin-bottom: 1rem;
+    }
+
     header nav ul{
         margin: 0;
         align-items: flex-start;
@@ -245,6 +271,9 @@
     }
     .mapa{
         max-width: 80%;
+    }
+    footer nav{
+        margin-bottom: 1rem;
     }
     header nav ul li{
         padding: 0rem 3rem;
