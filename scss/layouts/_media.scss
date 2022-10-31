@@ -1,6 +1,9 @@
 /* Media Querys*/
 
 @media (max-width: 420px) {
+    .contenedorMain{
+        padding: 0rem 5%;
+    }
     .titulo{
         font-size: 7rem;
     }
@@ -15,6 +18,7 @@
         padding: 0rem 2rem;
     }
     .grid{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         margin: 0% 0% 0% 0%;
         gap: 0rem 0rem;
         padding: 0rem;
@@ -90,6 +94,9 @@
 }
 
 @media (min-width:421px) and (max-width: 626px) {
+    .contenedorMain{
+        padding: 0rem 5%;
+    }
     .titulo{
         font-size: 8rem;
     }
@@ -160,6 +167,9 @@
     }
 }
 @media (min-width:627px) and (max-width: 827px) {
+    .contenedorMain{
+        padding: 0rem 7%;
+    }
     .titulo{
         font-size: 8rem;
     }
