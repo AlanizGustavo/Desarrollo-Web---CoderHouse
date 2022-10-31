@@ -87,8 +87,8 @@ header {
 
 .botonBanner, nav ul li {
   font-family: "Amatic SC", cursive;
-  padding: 0rem 5rem;
-  font-size: 4rem;
+  padding: 0rem 4rem;
+  font-size: 3.7rem;
   list-style: none;
   background-color: #F7F0CA;
   border-radius: 50px;
@@ -273,6 +273,8 @@ form {
 article {
   margin-bottom: 4rem;
   font-size: 2rem; }
+  article li {
+    text-align: left; }
 
 .articleRecetas {
   align-items: center;
